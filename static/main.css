@@ -1,0 +1,65 @@
+.btn-circle {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+.btn-circle.btn-xl {
+  width: 70px;
+  height: 70px;
+  padding: 10px 16px;
+  font-size: 24px;
+  line-height: 1.33;
+  border-radius: 35px;
+}
+.feed-item {
+    padding-top: 0.5em;
+}
+#projectPopout {
+    background-color: rgba(200, 200, 200, 0.4);
+    position:fixed;
+    top:50px;
+    left:0px;
+    width:60px;
+    height:600px;
+}
+.badge.badge-project {
+    top:-1.5em;
+    font-size:0.5em;
+}
+.btn-project {
+    /*background-image: url("https://www.uow.edu.au/content/groups/webasset/@web/documents/siteelement/img_student_duck_icon.png"); 
+    background-size: 100% 100%;*/
+    margin-bottom:0.25em;
+    transition: all 0.15s;
+}
+.btn-project:hover {
+    width:52.5px;
+    height:52.5px;
+    border-radius:52.5px;
+}
+.bkg {
+    /*background-image: url("http://i.imgur.com/7bwA5IC.jpg");
+    filter:blur(25px) opacity(0.5);*/
+    /*background-color:lightgray;*/
+    display:none;
+    height:100%;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+}
+.list-group-item.list-group-item-input {
+    background-color: #eee;
+}
